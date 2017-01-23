@@ -1,0 +1,15 @@
+Testng_String.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "itunes"  parallel = "false">
+    <parameter name= "str" value ="Tihis isi a tiest messiage">  </parameter>
+    <parameter name = "ltr" value ="i"></parameter>
+    <parameter name= "newstr" value ="This is a Java Program">  </parameter>
+    <parameter name = "newltr" value ="b"></parameter>
+    <test name = "Chracter_remove" >
+        
+        <classes>
+            <class name = "apple.StringProblem"></class>        </classes>
+
+    </test>
+</suite>
